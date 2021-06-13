@@ -203,4 +203,65 @@ no modifica el taman:o de la caja
 ```http
   position:sticky
  ```
+ z-index modifica su contecto de apilamiento es decir le dice al browser que caja va arrida de otra
+ ```http
+  z-index:1
+ ```
+ el orden del stacking context es :  (de delante a atras)
+ elementos posicionados con un z-index de 1 a mas
+ elementos sin z-index declarados
+ elementos no posicionados
+ elementos con index negativos
  
+ # Ordenar las propiedades es importante 
+ ```http
+  1 propiedades de posicionamiento
+  2 propiedados de box model
+  3 propiedades de texto
+  4 propiedades visuales
+  5 el resto
+ 
+ ```
+ `body {
+ ------POSITION----------
+      position:relative;
+      top:0;
+      left:0;
+ ------BOX MODEL -------
+      display:block;
+      width:300px;
+      height:300px;
+      padding:10px
+      margin:10px;
+      overflow:hidden;
+ -----PROPIEDADES DE TEXTO---
+      font-size:16px;
+      text-aling:center;
+ -----VISUALES-------
+      color:blue;
+      border:2px solid red
+      border-radius:50px
+ -----EL RESTO-----
+      opacity:1;
+      
+ }`
+ 
+ ## Medidas em y rem
+ rem corresponde a la medida de la raiz del documento(el estandar del tamanio de la fuente en la raiz del documento es 16px)
+ em corresponde al contexto endonde nos encontramos(tanto rem como em se calcula en base a la propiedad font-size)
+ 
+ # Viewport width hace referencia al ancho de viewport (anco de la pantalla cualquiera)
+ ```http
+  height:100vh
+ ```
+ vmax no los entendi
+ vmin no los entendi
+ 
+# Hacer un triangulo en css
+```http
+  border-top:500px solid red
+  border-left:250px solid transparent
+  border-right:250px solid transparent
+ ```
+ 
+ #
