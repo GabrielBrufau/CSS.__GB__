@@ -193,6 +193,7 @@ no modifica el taman:o de la caja
  position absolute = el elemento usa el contenedor como referencia si no lo tiene usara el elemento html de referencia
  ```http
   position:absolute
+  
  ```
  fixed pierde su espacio reservado y sus medidas se quedara fijo en esa posicion auque agamos scroll siempre toma como punto de ref el html
  ```http
