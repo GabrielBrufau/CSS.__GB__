@@ -13,24 +13,24 @@
  ### selectores elementales
  selector universsal
  ```http
-  *{propiedad:valor;}
+  *{}
  ```
  selectores de tipo o etiqueta
  ```http
   nombre de la etiqueta html
-  h1{propiedad:valor;}
+  h1{}
  ```
  ### selectores de atributos
  id(no es recomendable dar estilos con id)
  ```http
-  #nombredelaid{propiedad:valor;}
+  #nombredelaid{}
  ```
  class (recomendable cuando se le quiere dar estilos a diferente grupos
  ```http
-  .nombredelaclass{propiedad:valor;}
+  .nombredelaclass{}
  ```
  otros
- ```http
+ ```bash
   [nombredelatributo]{propiedad:valor;}
   [nombredelatributo+valorUrl]{propiedad:valor;}
   [nombredelatributo+^palabraquecoomienzalaUrl]{propiedad:valor;}
@@ -41,21 +41,21 @@
  ## Selectores compuestos
  
  ### selectores agrupados
- ```http
+ ```bash
   .class,.class2,.class3.etc4{propiedad:valor;}
  ```
  ### selectores combinados
  desendientes
- ```http
+ ```bash
   div .class{propiedad:valor;}
  ```
  selector de hermano siguiente
- ```http
+ ```bash
   .class + tag{prop:value;}
  ```
  selector de hermanos siguientes
  seleccionas todos los hermanos que coincidan con la selecion
- ```http
+ ```bash
   .class ~ tag{prop:value;}
  ```
  ### pseudoclases-pseudoelementos
@@ -72,11 +72,11 @@
  
  ### Herencia 
  inherit fuerza la herencia de los link o lo que se te ocurra
- ```http
+ ```bash
   .Link{color:inherit;}
  ```
  initial fuerza a que el elemento no herede
- ```http
+ ```bash
   .class{color:initial;}
  ```
  ### Herramientas en inspeccionar/styles o computed se ve bien
