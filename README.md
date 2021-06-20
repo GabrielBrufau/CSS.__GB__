@@ -80,6 +80,13 @@
   .class{color:initial;}
  ```
  ### Herramientas en inspeccionar/styles o computed se ve bien
+ # color
+ ## backgroun color
+ ### background linear-gradient 
+ ```bash
+  background: linear-gradient(to right,color,color)
+ 
+ ```
  # Box model
  ## Taman:o
  ```http
