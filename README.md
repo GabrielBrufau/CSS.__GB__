@@ -203,6 +203,7 @@ no modifica el taman:o de la caja
   
  ```
  fixed pierde su espacio reservado y sus medidas se quedara fijo en esa posicion auque agamos scroll siempre toma como punto de ref el html
+ hay un truco interezante que me gustaria probar con esto
  ```http
   position:fixed
  ```
