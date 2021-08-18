@@ -84,7 +84,7 @@
  ## backgroun color
  ### background linear-gradient 
  ```bash
-  background: linear-gradient(to right,color,color)
+  background: linear-gradient(to right top,color,color)
  
  ```
  # Box model
@@ -262,6 +262,7 @@ no modifica el taman:o de la caja
  # Viewport width hace referencia al ancho de viewport (anco de la pantalla cualquiera)
  ```http
   height:100vh
+  width:100hv;
  ```
  vmax no los entendi
  vmin no los entendi
