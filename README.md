@@ -1,9 +1,21 @@
 # CSS.__GB__
-# nivel basico
-(w3.org)
+# stilo basico
 
-```http
-  
+```css
+  *,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+ ```
+ # root basico
+ ```css
+ :root{
+  --black:#0000
+  --grey:somebody;
+  --backgound:algunbackground
+  etcetc
+ }
  ```
 ## ligando el html al css
 ```http
