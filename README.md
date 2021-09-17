@@ -30,7 +30,7 @@
   .nombredelaclass{}
  ```
  otros
- ```bash
+ ```css
   [nombredelatributo]{propiedad:valor;}
   [nombredelatributo+valorUrl]{propiedad:valor;}
   [nombredelatributo+^palabraquecoomienzalaUrl]{propiedad:valor;}
